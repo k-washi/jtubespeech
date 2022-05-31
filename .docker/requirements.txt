@@ -1,3 +1,5 @@
 espnet==202205
 youtube-dl==2021.12.17
 joblib==1.1.0
+pydub==0.25.1
+pandas==1.4.2

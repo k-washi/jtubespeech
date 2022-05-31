@@ -1,11 +1,11 @@
 FROM nvidia/cuda:11.1.1-devel-ubuntu20.04
-
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A4B469963BF863CC
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y && apt-get install -y build-essential vim \
     wget curl git zip gcc make cmake openssl \
     libssl-dev libbz2-dev libreadline-dev \
     libsqlite3-dev python3-tk tk-dev python-tk \
-    libfreetype6-dev libffi-dev liblzma-dev -y
+    libfreetype6-dev libffi-dev liblzma-dev ffmpeg -y
 
 RUN git clone https://github.com/yyuu/pyenv.git /root/.pyenv
 ENV HOME  /root
