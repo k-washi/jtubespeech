@@ -12,6 +12,8 @@ import os
 import threading
 from concurrent.futures import ThreadPoolExecutor
 
+# python scripts/download_video.py ja ./data/ja/202103.csv --outdir /audio/downloads
+
 def parse_args():
   parser = argparse.ArgumentParser(
     description="Downloading videos with subtitle.",
