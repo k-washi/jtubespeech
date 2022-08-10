@@ -11,3 +11,5 @@ multi-lang/*
 nohup/
 .data
 dataset/
+.asrmodel/
+logs

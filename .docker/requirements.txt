@@ -1,5 +1,9 @@
 espnet==202205
+espnet-model-zoo==0.1.7
 youtube-dl==2021.12.17
 joblib==1.1.0
 pydub==0.25.1
 pandas==1.4.2
+num2words==0.5.11
+neologdn==0.5.1
+romkan==0.2.1
