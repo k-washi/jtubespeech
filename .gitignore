@@ -9,3 +9,7 @@ __pycache__/
 multi-lang/*
 
 nohup/
+.data
+dataset/
+.asrmodel/
+logs
